@@ -5,7 +5,7 @@ from time import sleep # Import the sleep function from the time module
 PIN_GPIO = 11
 GPIO.setwarnings(False) # Ignore warning for now
 GPIO.setmode(GPIO.BOARD) # Use physical pin numbering
-GPIO.setup(PIN_GPIO, GPIO.OUT, initial=GPIO.LOW) # Set pin 8 to be an output pin and set initial value to low (off)
+GPIO.setup(PIN_GPIO, GPIO.OUT, initial=GPIO.LOW) # Set pin 11 to be an output pin and set initial value to low (off)
 
 
 while True: # Run forever
